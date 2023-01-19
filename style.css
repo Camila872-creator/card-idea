@@ -1,0 +1,133 @@
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);}
+.local{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 30px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+.draggable{
+    background-image: url(https://i.pinimg.com/originals/52/67/46/526746862ecf477fd182655a3740bdcd.jpg);
+    width: 500px;
+    height: 1250px;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.draggable header {
+    cursor: move;    
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px 200px;
+    color: rgb(255, 238, 0);
+}
+.draggable header .active{
+    cursor: move;    
+    user-select: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info img{
+    border-radius: 50%;
+    border: 5px solid rgb(196, 144, 255);
+}
+.about{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 50px;
+    color: rgb(255, 0, 0);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    cursor: move;
+}
+.charizard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(78, 33, 99);
+    padding: 20px;
+}
+.charizard img {
+    border-radius: 50%;
+    padding: 0px 30px;
+}
+.wooloo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(175, 92, 252);
+    padding: 20px;
+}
+.wooloo img{
+    border-radius: 50%;
+    padding: 0px 30px;
+}
+.bruh{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bruh{
+    display: flex;
+    justify-content: flex-start;
+}
+.find{
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 0, 255);
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: inline-flex;
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+    border-radius: 40%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    flex-shrink: 0;
+    transition: all .2s;
+}
+.tumblr{
+    background-color: rgb(14, 42, 128);;
+}
+.pinterest{
+    background-color: red;
+}
+.github{
+    background-color: black;
+}
+.soundclod{
+    background-color: rgb(255, 115, 0);
+}
